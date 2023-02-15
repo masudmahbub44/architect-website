@@ -1,0 +1,60 @@
+.header {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* header and nav styles start */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* header and nav styles end */
+
+
+/* banner style start */
+.banners {
+    text-align: center;
+
+}
+
+button {
+    padding: 10px;
+    background-color: chocolate;
+    color: aliceblue;
+    box-shadow: 5px;
+}
+
+.banner-img img {
+    width: 75%;
+    margin-top: 30px;
+}
+
+/* banner style end */
