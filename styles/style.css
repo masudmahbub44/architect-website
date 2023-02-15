@@ -1,5 +1,6 @@
 .header {
     background-color: whitesmoke;
+
 }
 
 h1 {
@@ -11,6 +12,12 @@ h1 {
 
 
 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -36,6 +43,18 @@ nav li {
     margin-top: 20px;
 }
 
+@media screen and(max-width:577px) {
+    nav {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
+
 /* header and nav styles end */
 
 
@@ -45,11 +64,13 @@ nav li {
 
 }
 
-button {
-    padding: 10px;
+.first-btn {
+    padding: 15px;
+    border: 0;
     background-color: chocolate;
     color: aliceblue;
-    box-shadow: 5px;
+
+    border-radius: 15px;
 }
 
 .banner-img img {
@@ -58,3 +79,82 @@ button {
 }
 
 /* banner style end */
+
+
+/* photo-grid section start */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+.photo-grid img {
+    width: 250px;
+
+}
+
+.photo-section {
+
+    display: flex;
+    margin-left: 150px;
+}
+
+.another-section {
+    margin-left: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+/* span style */
+.quick {
+    color: darkgrey;
+}
+
+.features {
+    color: orange;
+}
+
+/* photo-grid section end */
+
+
+/* middle section style start */
+.banner-title {
+    margin-left: 100px;
+}
+
+.middle-banner {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+.text-box-title {
+
+    width: 50%;
+
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.img {
+    width: 500px;
+    height: 900px;
+    margin-right: 100px;
+}
+
+.btn-primary {
+    background-color: orange;
+    padding: 10px;
+    margin: -60px;
+}
+
+/* middle section style end*/
