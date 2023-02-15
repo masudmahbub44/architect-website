@@ -3,7 +3,12 @@
 
 }
 
-h1 {
+.architect {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.banners-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -11,7 +16,7 @@ h1 {
 
 
 
-h2 {
+.another-section-tag {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -165,7 +170,71 @@ nav li {
 .text-section {
     width: 50%;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
 
 /* text-section end */
+
+/* box style start */
+.fourth-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    justify-content: center;
+}
+
+.first-box img {
+    width: 50px;
+}
+
+.first-box {
+    border: 2px solid skyblue;
+    text-align: center;
+}
+
+.fourth-section h1 {
+    font-weight: 600;
+}
+
+.color {
+    color: skyblue;
+}
+
+/* box style end */
+/* sponsor style start */
+.sponsor {
+
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.sponsor h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.last-one {
+    display: flex;
+    gap: 60px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+/* sponsor style end */
+/* footer style start */
+
+.footer {
+
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+
+
+/* footer style end */
