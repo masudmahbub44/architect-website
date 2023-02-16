@@ -14,6 +14,13 @@
     font-size: 40px;
 }
 
+nav li:hover {
+    background-color: aqua;
+    width: 50px;
+    height: 30px;
+
+}
+
 
 
 .another-section-tag {
@@ -27,6 +34,8 @@ h3 {
     font-weight: 700;
     font-size: 30px;
 }
+
+
 
 /* header and nav styles start */
 nav {
@@ -48,17 +57,7 @@ nav li {
     margin-top: 20px;
 }
 
-@media screen and(max-width:577px) {
-    nav {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .header {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-
-}
 
 /* header and nav styles end */
 
@@ -150,6 +149,8 @@ nav li {
     border-radius: 15px;
 }
 
+
+
 .img {
     width: 500px;
     height: 900px;
@@ -185,6 +186,8 @@ nav li {
     justify-content: center;
 }
 
+
+
 .first-box img {
     width: 50px;
 }
@@ -192,6 +195,13 @@ nav li {
 .first-box {
     border: 2px solid skyblue;
     text-align: center;
+}
+
+.first-box:hover {
+    background-color: skyblue;
+
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .fourth-section h1 {
@@ -238,3 +248,9 @@ nav li {
 
 
 /* footer style end */
+
+/* media queries start */
+
+
+
+/* media queries end */
